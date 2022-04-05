@@ -1,0 +1,245 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+.conteiner{
+   margin: 0 auto;
+   max-width: 1440px;
+
+}
+
+.website__header{
+   border-top:3px solid #ff7500 ;
+   padding: 15px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+.header__menu_a{
+	padding: 0 7px;
+	font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  transform: all 1s;
+}
+.header__menu_a:hover{
+   color: #ff7500;
+}
+.button_header{
+   padding: 12px 15px; 
+   width: 152px;
+   height: 39px;
+   background: #FF7500;
+   border-radius: 4px;
+   text-decoration: none;
+   color: #fff;
+}
+.website__hero{
+   background: #252420;
+   height: 488px;
+   display: flex;
+   justify-content: space-around;
+   padding: 30px 50px;
+
+}
+.hero_hr{
+   background: #FF7500;
+   border: none;
+   height: 2px;
+   width: 80px;
+
+}
+.hero__content{
+ padding: 25px 0;
+ width: 387px;
+ height: 360px;
+}
+.hero__content h2{
+ padding: 30px 0;
+ font-family: 'Roboto Condensed';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 120%;
+ letter-spacing: 0.5px;
+ color: #FFFFFF;
+}
+.hero__content p{
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.5px;
+ color: #FFFFFF;
+}
+.hero__content  a{
+
+ padding: 12px 15px; 
+ width: 152px;
+ height: 39px;
+ background: #FF7500;
+ border-radius: 4px;
+ text-decoration: none;
+ color: #fff;
+}
+.feature__text h2{
+ padding: 30px 0;
+ font-family: 'Roboto Condensed';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 72px;
+ line-height: 120%;
+ letter-spacing: 0.5px;
+ color: #000000;
+
+}
+.website__feature{
+ padding: 150px;
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+
+}
+.feature__list{
+   padding: 30px 0px; 	
+   display: flex;
+   justify-content: space-between;
+
+}
+.feature__itme{
+ padding: 15px;
+ width: 340px;
+ height: 245px;
+}
+.feature__itme img{
+ width: 100px;
+ height: 100px;
+}
+.feature__itme h4{
+   padding: 10px 0;
+   font-family: 'Roboto Condensed';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 120%;
+   letter-spacing: 0.5px;
+   color: #000000;    
+}
+.feature__itme p{
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.5px;
+ color: #000000;
+}
+.website__sale{
+   padding: 30px;
+   position: relative;
+   width: 1100px;
+   background: #252420;
+   border-radius: 12px;
+   margin: 0 auto;
+   display: flex;
+
+   
+}
+.sale__content{
+ padding: 50px 80px;
+}
+.sale__content h1{
+   padding: 10px 0;
+   font-family: 'Roboto Condensed';
+   font-style: normal;
+   font-weight: 700;
+   line-height: 120%;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+}
+.sale__content p{
+   padding: 15px 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+}
+.orange{
+   color: #ff7500;
+}
+.sale_img img{
+ width: 440px;
+ height: 440px;
+ position: absolute;
+ top: -30px;
+ right: 50px;
+}
+.sale__content a{
+
+   padding: 12px 15px; 
+   width: 152px;
+   height: 39px;
+   background: #FF7500;
+   border-radius: 4px;
+   text-decoration: none;
+   color: #fff;
+}
+.site__footer{
+   background: #f8f8f8;
+   margin-top: 100px; 
+   padding: 40px 120px;
+}
+.site__footer__top{
+   padding-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1.5px solid rgba(37, 36, 32, 0.5);;
+}
+.footer__icon a{
+   padding: 5px;
+   transform: 2s all;
+
+}
+.footer__icon a:hover path{
+  
+   fill: #ff7500; 
+
+}
+.site__footer__link__list{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 0 0 0;
+}
+.footer__link_list{
+   display: flex;
+   flex-direction: column;
+}
+.footer__link_list a{
+   padding: 5px;
+   text-decoration: none;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   color: #252420;
+}
+.footer__link_list a:hover{
+   color: #ff7500;
+}
